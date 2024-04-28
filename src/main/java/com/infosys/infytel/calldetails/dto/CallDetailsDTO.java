@@ -58,7 +58,7 @@ public class CallDetailsDTO {
 		this.duration = duration;
 	}
 
-	// Converts Entity  yuo into the  DTO class file // comments to trigger jenkin build
+	// Converts Entity  yuo into the  DTO class file  modified// comments to trigger jenkin build
 	public static CallDetailsDTO valueOf(CallDetails callDetails) {
 		CallDetailsDTO callsDTO = new CallDetailsDTO();
 		callsDTO.setCalledBy(callDetails.getCalledBy());
